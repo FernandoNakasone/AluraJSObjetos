@@ -13,7 +13,7 @@ const livro2 = {
     autor: 'Antoine de Saint-Exupéry',
     anoLancamento: 1943,
     generos: ['Novela', 'Literatura infantil', 'Fábula', 'Ficção especulativa', 'Fantasia científica'],
-    idade: anoAtual - livro.anoLancamento
+    idade: anoAtual - anoLancamento
 }
 
 const mostrarDetalhes = `Nome:${livro2.titulo} Autor:${livro2.autor} Ano de lançamento:${livro2.anoLancamento} Generos:${livro2.generos} Idade:${livro2.idade}`;
