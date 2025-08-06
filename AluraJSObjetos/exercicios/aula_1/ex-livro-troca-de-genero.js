@@ -5,14 +5,12 @@ const livro = {
     autor: 'Antoine de Saint-Exupéry',
     anoLancamento: 1943,
     generos: ['Novela', 'Literatura infantil', 'Fábula', 'Ficção especulativa', 'Fantasia científica'],
-    idade: anoAtual - anoLancamento,
     avaliacao: null
 }
+livro.idade = anoAtual - livro.anoLancamento;
 
-const avaliacao = 8;
+console.log(livro);
 
-if(livro.avaliacao === null){
-    livro.avaliacao = avaliacao;
-}
+livro.generos = ['Aventura'];
 
-console.log(livro[avaliacao]);
+console.log(livro);
