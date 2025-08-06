@@ -16,4 +16,5 @@ const livro2 = {
     idade: anoAtual - livro.anoLancamento
 }
 
-console.log(`Nome:${livro2.titulo} Autor:${livro2.autor} Ano de lançamento:${livro2.anoLancamento} Generos:${livro2.generos} Idade:${livro2.idade}`);
+const mostrarDetalhes = `Nome:${livro2.titulo} Autor:${livro2.autor} Ano de lançamento:${livro2.anoLancamento} Generos:${livro2.generos} Idade:${livro2.idade}`;
+console.log(mostrarDetalhes);
